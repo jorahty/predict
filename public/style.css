@@ -1,0 +1,53 @@
+/* lock screen in place */
+html,
+body { height: 100%; margin: 0; }
+body {
+  -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+  touch-action: none;
+}
+
+/* prevent selections */
+html {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  background: #234;
+}
+
+canvas {
+  width: 100%;
+}
+
+body * {
+  font-family: system-ui;
+}
+
+button {
+  background: #345;
+  width: 50%;
+  border: none;
+  height: 400px;
+}
+
+div {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #0f0;
+}
+
+div * {
+  margin: 0;
+  font-size: medium;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "predict",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "matter-js": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
